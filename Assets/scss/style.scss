@@ -130,21 +130,21 @@
             padding: 5px;}
         p input{padding: 0px;
             width: 200px;
-            border-radius: 5px;
+            border-radius:5px;
             padding: 5px;
             outline: none;
             border: 2px solid rgb(96, 85, 98);
             ::placeholder{text-align: center;}}}
     
-    .grupo{margin-bottom: 20px;}
+    .grupo{margin-bottom: 0px;}
 
     $colores:(
     principal:rgb(96, 85 ,98),
     secundario:rgb(191, 191, 191),
-    terciario:#2c2c92),
-    
-    
+    terciario:rgb(23, 23, 151))
 @media(min 576px){.imgprincipal{background-image: url("/imgprincipal.jpeg");
         width:100%;
         height:200px;
         background-size:cover;}
+}
+    
